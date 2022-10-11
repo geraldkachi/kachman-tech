@@ -1,0 +1,205 @@
+.mainhero {
+  width: 100%;
+  position: relative;
+  padding-bottom: 10px;
+  min-height: 100vh;
+}
+.split_bg {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.black_side {
+  background: black;
+  width: 70%;
+  height: 100%;
+}
+.yellow_side {
+  background: yellow;
+  width: 30%;
+  height: 100%;
+}
+
+.main_side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  padding-top: 130px;
+  padding-left: 7.5%;
+  margin: auto;
+}
+
+.left_main {
+  width: 40%;
+}
+.left_main p {
+  color: white;
+}
+
+.rest_about {
+  font-size: 45px;
+  margin: 30px 0 25px;
+  line-height: 70px;
+  font-family: barber;
+}
+
+.desc {
+  font-size: 15px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.yellow_arrow a {
+  display: block;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  text-align: center;
+  width: 200px;
+  background-color: white;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+/* end of left side */
+
+/* start right side */
+.right_main {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .slick-track {
+      display: flex;
+    }
+    .slick-prev,
+    .slick-next {
+      display: none !important;
+    }
+    /* the slides */
+    .slick-slide {
+      margin: 0 10px !important;
+      /*  width: 500px !important; */
+    }
+    .slick-list {
+      height: 450px;
+    }
+    .each_carousel {
+      height: 450px;
+      border-radius: 5px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      cursor: pointer;
+    }
+
+     .one {
+        background-image: url("../../assets/svg/illustration-features-tab-3.png");
+      }
+     .two {
+        background-image: url("../../assets/svg/illustration-features-tab-2.png");
+      }
+     .three {
+        background-image: url("../../assets/svg/illustration-features-tab-1.png");
+      }
+
+      .each_carousel  p {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 600;
+        position: absolute;
+        color: rgba( #ffffff);
+        position: relative;
+      }
+
+    .pd_yellow_line {
+      margin-top: 60px;
+    }
+
+
+  /* svg for left */
+svg {
+  fill: white;
+}
+
+p.view {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 900px) {
+  .mainhero {
+    min-height: unset;
+  }
+  .black_side {
+    width: 100%;
+  }
+  .yellow_side {
+    display: none;
+  }
+  .main_side {
+    flex-direction: column;
+    padding: 130px 7.5%;
+  }
+  .left_main {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .rest_about {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .desc {
+    font-size: 12px;
+  }
+
+  .right_main {
+    width: 100%;
+  }
+
+  .icon_box {
+    display: none;
+  }
+
+}
+
+
+.icon_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+}
+
+    .straight_line {
+      height: 100px;
+      border-left: 1px dashed green;
+      margin-bottom: 10px;
+    }
+    .each_icon {
+      margin-bottom: 6px;
+    }
+    .icon_box_small {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .icon_box_small  svg {
+          fill: green;
+          width: 16px;
+        }
+
