@@ -10,7 +10,7 @@ import OperaImg from "../../src/assets/svg/logo-opera.svg"
 const landingPage = () => {
   return (
     <div className="overflow-hidden">
-      <header>
+      <header className="p-3">
         <nav className="max-w-7xl mx-auto flex items-center py-4 mt-4 sm:mt-12">
           <div className="py-1"><img src={Logo} alt="" /></div>
           <ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
@@ -26,7 +26,7 @@ const landingPage = () => {
       </header>
 
       {/* <!-- Hero --> */}
-      <section className="relative">
+      <section className="relative px-3">
         <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
           {/* <!-- Content --> */}
           <div className="flex flex-1 flex-col items-center lg:items-start">
@@ -72,7 +72,7 @@ const landingPage = () => {
       </section>
 
       {/* <!-- Features --> */}
-      <section className="bg-white py-20 mt-20 lg:mt-60">
+      <section className="px-3 bg-white py-20 mt-20 lg:mt-60">
         {/* <!-- Heading --> */}
         <div className="sm:w-3/4 lg:w-5/12 mx-auto px-2">
           <h1 className="text-3xl text-center text-bookmark-blue">Features</h1>
@@ -195,7 +195,7 @@ const landingPage = () => {
       </section>
 
       {/* <!-- Download --> */}
-      <section className="py-20 mt-20">
+      <section className="px-3 py-20 mt-20">
         {/* <!-- Heading --> */}
         <div className="sm:w-3/4 lg:w-5/12 mx-auto px-2">
           <h1 className="text-3xl text-center text-bookmark-blue">Download the extension</h1>
@@ -252,7 +252,7 @@ const landingPage = () => {
       </section>
 
       {/* <!-- FAQ --> */}
-      <section className="bg-white py-20">
+      <section className="px-3 bg-white py-20">
         <div className="max-w-7xl mx-auto">
           {/* <!-- Heading --> */}
           <div className="sm:w-3/4 lg:w-5/12 mx-auto px-2">
@@ -287,7 +287,7 @@ const landingPage = () => {
       </section>
 
       {/* <!-- Contact Us --> */}
-      <section className="bg-purple-600 text-white py-20">
+      <section className="px-3 bg-purple-600 text-white py-20">
         <div className="max-w-7xl mx-auto">
           <div className="sm:w-3/4 lg:w-2/4 mx-auto">
             <p className="font-light uppercase text-center mb-8">35,000+ ALREADY JOINED</p>
@@ -307,7 +307,7 @@ const landingPage = () => {
       </section>
 
       {/* <!-- Footer --> */}
-      <footer className="bg-blue-700 py-4">
+      <footer className="px-3 bg-blue-700 py-4">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
           <div className="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
             <img src="./imgs/logo-bookmark-white.png" alt="" />
