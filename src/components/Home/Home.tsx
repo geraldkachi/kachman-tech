@@ -5,6 +5,7 @@ import Projects from '../Projects/Projects'
 import WHatWeDo from '../WHatWeDo/WHatWeDo'
 import LandingPage from "../../assets/landingPage"
 import UsersList from '../UsersList/UsersList'
+import WorldGlow from '../WorldGlow/WorldGlow'
 
 const Home = () => {
     return (
@@ -18,6 +19,9 @@ const Home = () => {
             <LandingPage />
 
             <UsersList />
+
+
+            <WorldGlow />
         </div>
     )
 }
