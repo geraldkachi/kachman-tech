@@ -1,5 +1,3 @@
-import React from 'react'
-
 const UsersList = () => {
     return (
         <section className='bg-gray-200'>
@@ -27,7 +25,6 @@ const UsersList = () => {
                 <div className="grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 max-h-[33rem] overflow-hidden">
 
                     <ul className="space-y-8">
-
                         <li className="text-sm leading-6">
                             <figure className="relative flex flex-col-reverse bg-slate-50 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
                                 <blockquote className="mt-6 text-slate-700 dark:text-slate-300">
@@ -70,7 +67,7 @@ const UsersList = () => {
                                     <div className="flex-auto"><div className="text-base text-slate-900 font-semibold dark:text-slate-300">
                                         <a href="https://twitter.com/ryanflorence/status/1187951799442886656" ><span className="absolute inset-0"></span>Kent C. Dodds</a>
                                     </div>
-                                    <div className="mt-0.5">Developer and Educator</div>
+                                        <div className="mt-0.5">Developer and Educator</div>
                                     </div>
                                 </figcaption>
                             </figure>
@@ -78,7 +75,7 @@ const UsersList = () => {
                     </ul>
 
                     <ul className="space-y-8 hidden sm:block">
-                    <li className="text-sm leading-6">
+                        <li className="text-sm leading-6">
                             <figure className="relative flex flex-col-reverse bg-slate-50 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
                                 <blockquote className="mt-6 text-slate-700 dark:text-slate-300">
                                     <p>I feel like an idiot for not using Tailwind CSS until now.</p>
@@ -120,15 +117,15 @@ const UsersList = () => {
                                     <div className="flex-auto"><div className="text-base text-slate-900 font-semibold dark:text-slate-300">
                                         <a href="https://twitter.com/ryanflorence/status/1187951799442886656" ><span className="absolute inset-0"></span>Kent C. Dodds</a>
                                     </div>
-                                    <div className="mt-0.5">Developer and Educator</div>
+                                        <div className="mt-0.5">Developer and Educator</div>
                                     </div>
                                 </figcaption>
                             </figure>
                         </li>
                     </ul>
-                    <ul className="space-y-8 hidden lg:block">
 
-                    <li className="text-sm leading-6">
+                    <ul className="space-y-8 hidden lg:block">
+                        <li className="text-sm leading-6">
                             <figure className="relative flex flex-col-reverse bg-slate-50 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
                                 <blockquote className="mt-6 text-slate-700 dark:text-slate-300">
                                     <p>I feel like an idiot for not using Tailwind CSS until now.</p>
@@ -170,14 +167,13 @@ const UsersList = () => {
                                     <div className="flex-auto"><div className="text-base text-slate-900 font-semibold dark:text-slate-300">
                                         <a href="https://twitter.com/ryanflorence/status/1187951799442886656" ><span className="absolute inset-0"></span>Kent C. Dodds</a>
                                     </div>
-                                    <div className="mt-0.5">Developer and Educator</div>
+                                        <div className="mt-0.5">Developer and Educator</div>
                                     </div>
                                 </figcaption>
                             </figure>
                         </li>
                     </ul>
                 </div>
-
             </section>
         </section>
     )

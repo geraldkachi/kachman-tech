@@ -12,15 +12,12 @@ const Home = () => {
         <div className='overflow-y-scroll h-screen snap-y snap-mandatory'>
             <HomeHome />
             <Hero />
-            <div className="snap-cente  ">
+            <div className="snap-cente">
                 <WHatWeDo />
             </div>
             <Projects />
             <LandingPage />
-
             <UsersList />
-
-
             <WorldGlow />
         </div>
     )
