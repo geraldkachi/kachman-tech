@@ -36,7 +36,7 @@ const WHatWeDo = () => {
                 />
                 <br />
                 {/* ts-ignore */}
-                <Typed
+                {/* <Typed
                     strings={[
                         'Search for products',
                         'Search for categories',
@@ -48,7 +48,7 @@ const WHatWeDo = () => {
                     className="mx-3"
                 >
                     <input type="text" />
-                </Typed>
+                </Typed> */}
             </h1>
         </motion.div>
     )
